@@ -1,0 +1,17 @@
+.footer-container {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-content-container {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+}
+
+a {
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-size: 16px;
+    padding: 1% 0;
+    background-color: #aaa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+}
+
+.app-name {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.logo {
+    padding-right: 10px;
+}
+
+
