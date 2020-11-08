@@ -1,3 +1,7 @@
-* {
-    box-sizing: border-box;
+.LP-container {
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100;
 }

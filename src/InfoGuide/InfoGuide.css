@@ -2,14 +2,32 @@
     margin-top: 15px;
     background-color: #bbb;
     text-align: center;
-    padding-bottom: 2.5rem;
-        
+    padding-bottom: 2.5rem;        
+}
+
+.info-title {
+    padding: 4px;
 }
 
 .first-section {
-    padding: 15px 
+    padding: 15px;
 }
 
 .second-section {
     margin: auto;
+}
+
+@media screen and (min-width: 700px) {
+    .info-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .first-section {
+        width: 50%;
+    }
+
+    .second-section {
+        width: 50%;
+    }
 }

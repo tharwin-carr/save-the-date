@@ -4,10 +4,12 @@ import './InfoGuide.css'
 export default function InfoGuide() {
     return (
         <div className='info-container'>
-            <div className='first-section'>
+            <div className='info-title'>
                 <h2>
                     Why Save the Date?
                 </h2>
+            </div>
+            <div className='first-section'>
                 <img src="https://img.icons8.com/wired/64/000000/infinity.png" alt='infinity sign'/>
                 <h3>
                     Possiblities are endless
@@ -23,8 +25,8 @@ export default function InfoGuide() {
                     Quick and Easy
                 </h3>
                 <p>
-                Generate a random date idea with a push of a button. 
-                Don't like the suggestion? Press the button again and generate a new idea, it's that simple
+                    Generate a random date idea with a push of a button. 
+                    Don't like the suggestion? Press the button again and generate a new idea, it's that simple
                 </p>
             </div>
         </div>
